@@ -1,0 +1,36 @@
+using System;
+
+namespace CS_SAMPLE
+{
+	class MainClass
+	{
+		/*< operator_functions />*/
+
+		public static void Main(string[] args)
+		{
+			if (args.Length <= 0) return;
+
+			if (args[0] == "help")
+			{
+				Console.WriteLine("Usage:");
+				/*< operator_help_line />*/
+				Console.WriteLine("CS_SAMPLE help           Show this help");
+				Environment.Exit(0);
+			}
+
+			if (args.Length < 3) return;
+			double a = Double.Parse(args[0]);
+			double b = Double.Parse(args[2]);
+			string op = args[1];
+
+			switch (op)
+			{
+				/*< operator_switch_case />*/
+
+				default:
+					Console.WriteLine("Unknown command");
+					break;
+			}
+		}
+	}
+}

@@ -4,7 +4,7 @@
       {
         "categoryID": "294",
         "parentID": "304",
-        "categoryName": "program",
+        "categoryName": "my_app",
         "categoryDescription": "The main part of a BigClown application (always needed).",
         "categoryDescription": "",
         "parameters": [
@@ -29,7 +29,7 @@
       {
         "categoryID": "285",
         "parentID": "304",
-        "categoryName": "my_app",
+        "categoryName": "program",
         "categoryDescription": "A light emitting device.",
         "categoryDescription": "",
         "parameters": [

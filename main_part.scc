@@ -1,4 +1,4 @@
-/*< main_cpp local output="@{app_title}.scc" >*//*
+/*< main_cpp local output="@{app_title}.scc" >*/
 using System;
 
 namespace CS_SAMPLE

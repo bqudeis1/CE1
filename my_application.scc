@@ -8,5 +8,5 @@
 
 
 
-/*< program comment="This line triggers code generation from the above main_part instance." />*/
+/*< main_part comment="This line triggers code generation from the above main_part instance." />*/
 

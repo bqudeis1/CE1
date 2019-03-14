@@ -1,90 +1,86 @@
 {
-    "categoryName": "Toolbox",
-    "categories": [
-      {
-        "categoryID": "294",
-        "parentID": "304",
-        "categoryName": "my_app",
-        "categoryDescription": "The main part of a BigClown application (always needed).",
-        "categoryDescription": "",
-        "parameters": [
-          {
-            "ParameterID": "ID",
-            "ParameterName": "ID",
-            "ParameterDefultValue": "",
-            "ParameterValue": "",
-            "ParameterDescription": "ID Description",
-            "ParameterType": "TextBox"
-          },
-          {
-            "ParameterID": "NAME",
-            "ParameterName": "Name",
-            "ParameterDefultValue": "",
-            "ParameterValue": "",
-            "ParameterDescription": "Name Description",
-            "ParameterType": "TextBox"
-          }
-        ]
-      },
-      {
-        "categoryID": "285",
-        "parentID": "304",
-        "categoryName": "program",
-        "categoryDescription": "A light emitting device.",
-        "categoryDescription": "",
-        "parameters": [
-          {
-            "ParameterID": "ID",
-            "ParameterName": "ID",
-            "ParameterDefultValue": "",
-            "ParameterValue": "",
-            "ParameterDescription": "ID Description",
-            "ParameterType": "TextBox"
-          },
-          {
-            "ParameterID": "led_name",
-            "ParameterName": "led_name",
-            "ParameterDefultValue": "LED0",
-            "ParameterValue": "",
-            "ParameterDescription": "Name for your LED",
-            "ParameterType": "TextBox"
-          },
-          {
-            "ParameterID": "led_pulse",
-            "ParameterName": "led_pulse",
-            "ParameterDefultValue": "1000",
-            "ParameterValue": "1000",
-            "ParameterDescription": "How long to blink?",
-            "ParameterType": "TextBox"
-          }
-        ]
-      },
-      {
-        "categoryID": "337",
-        "parentID": "304",
-        "categoryName": "operator_component",
-        "categoryDescription": "A push button.",
-        "categoryDescription": "",
-        "parameters": [
-          {
-            "ParameterID": "ID",
-            "ParameterName": "ID",
-            "ParameterDefultValue": "",
-            "ParameterValue": "",
-            "ParameterDescription": "ID Description",
-            "ParameterType": "TextBox"
-          },
-          {
-            "ParameterID": "btn_name",
-            "ParameterName": "btn_name",
-            "ParameterDefultValue": "Button0",
-            "ParameterValue": "",
-            "ParameterDescription": "Name Description",
-            "ParameterType": "TextBox"
-          }
-        ]
-      }
-      
-      
-    ]
-  }
+	"categoryName": "Toolbox",
+	"categories": [{
+			"categoryID": "294",
+			"parentID": "304",
+			"categoryName": "my_app",
+			"categoryDescription": "The main part of a BigClown application (always needed).",
+
+			"parameters": [{
+					"ParameterID": "ID",
+					"ParameterName": "ID",
+					"ParameterDefultValue": "",
+					"ParameterValue": "",
+					"ParameterDescription": "ID Description",
+					"ParameterType": "TextBox"
+				},
+				{
+					"ParameterID": "NAME",
+					"ParameterName": "Name",
+					"ParameterDefultValue": "",
+					"ParameterValue": "",
+					"ParameterDescription": "Name Description",
+					"ParameterType": "TextBox"
+				}
+			]
+		},
+		{
+			"categoryID": "285",
+			"parentID": "304",
+			"categoryName": "program",
+			"categoryDescription": "A light emitting device.",
+
+			"parameters": [{
+					"ParameterID": "ID",
+					"ParameterName": "ID",
+					"ParameterDefultValue": "",
+					"ParameterValue": "",
+					"ParameterDescription": "ID Description",
+					"ParameterType": "TextBox"
+				},
+				{
+					"ParameterID": "led_name",
+					"ParameterName": "led_name",
+					"ParameterDefultValue": "LED0",
+					"ParameterValue": "",
+					"ParameterDescription": "Name for your LED",
+					"ParameterType": "TextBox"
+				},
+				{
+					"ParameterID": "led_pulse",
+					"ParameterName": "led_pulse",
+					"ParameterDefultValue": "1000",
+					"ParameterValue": "1000",
+					"ParameterDescription": "How long to blink?",
+					"ParameterType": "TextBox"
+				}
+			]
+		},
+		{
+			"categoryID": "337",
+			"parentID": "304",
+			"categoryName": "operator_component",
+			"categoryDescription": "A push button.",
+
+			"parameters": [{
+					"ParameterID": "ID",
+					"ParameterName": "ID",
+					"ParameterDefultValue": "",
+					"ParameterValue": "",
+					"ParameterDescription": "ID Description",
+					"ParameterType": "TextBox"
+				},
+				{
+					"ParameterID": "btn_name",
+					"ParameterName": "btn_name",
+					"ParameterDefultValue": "Button0",
+					"ParameterValue": "",
+					"ParameterDescription": "Name Description",
+					"ParameterType": "TextBox"
+				}
+			]
+		}
+
+
+	]
+}

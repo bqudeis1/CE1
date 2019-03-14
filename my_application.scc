@@ -1,7 +1,7 @@
 
 
 
-/*< + program instanceregional app_title="main_part" app_caption="climate-monitor" comment="This is an instance which forms the basis of a BCF main_part." >*/
+/*< + program instanceregional app_title="program" app_caption="climate-monitor" comment="This is an instance which forms the basis of a BCF main_part." >*/
     /*< + operator_component instanceregional led_name="led" led_pulse="2500" />*/
     /*< + my_app instanceregional btn_name="button" />*/
 /*</ program>*/

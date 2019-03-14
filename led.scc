@@ -1,0 +1,11 @@
+
+/*< + program comment="This is an INSTANCE" />*/
+
+/*< + operator_component op="+" func="AddNums"      help="Add two numbers"      />*/
+/*< + operator_component op="-" func="SubtractNums" help="Subtract two numbers from each other" />*/
+/*< + operator_component op="/" func="DivideNums"   help="Divide two numbers" />*/
+/*< + operator_component op="*" func="MultiplyNums" help="Multiply two numbers" />*/
+/*< + operator_component op="=" func="AreNumsEquals" help="Test equality" />*/
+
+/*< real_help output="@{$OUTPUT_HELP_FILE}" comment="This is an INPUT" />*/
+/*< program comment="This is also another INPUT" />*/

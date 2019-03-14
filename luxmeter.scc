@@ -1,0 +1,28 @@
+/*<  operator_functions >*/
+private static double /*< @func />*/(double a, double b)
+{
+	return a /*< @op />*/ b;
+}
+
+/*</ operator_functions >*/
+
+
+
+/*<  operator_help_line >*/
+Console.WriteLine("CS_SAMPLE a /*< @op />*/ b          /*< @help />*/");
+/*</ operator_help_line >*/
+
+
+
+/*<  real_help >*/
+<b>// THIS IS A FEATURE: /*< @help />*/ </b><br/>
+/*</ real_help >*/
+
+
+
+/*<  operator_switch_case >*/
+case "/*< @op />*/":
+	Console.WriteLine(a + " " + op + " " + b + " = " + /*< @func />*/(a,b));
+	break;
+/*</ operator_switch_case >*/
+

@@ -1,3 +1,4 @@
+/*< main_cpp local output="@{app_title}.scc" >*//*
 using System;
 
 namespace CS_SAMPLE
@@ -34,3 +35,4 @@ namespace CS_SAMPLE
 		}
 	}
 }
+/*</ main_cpp >*/

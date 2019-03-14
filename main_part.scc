@@ -36,3 +36,5 @@ namespace CS_SAMPLE
 	}
 }
 /*</ main_cpp >*/
+/*< main_cpp app_title="application" app_caption="climate-monitor" comment="This is needed to trigger code generation from the local main_cpp block." />*/
+/*< main_h  app_title="application" comment="This is needed to trigger code generation from the local main_h block." />*/

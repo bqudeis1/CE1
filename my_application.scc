@@ -1,12 +1,12 @@
 
 
 
-/*< + main_part instanceregional app_title="program" app_caption="climate-monitor" comment="This is an instance which forms the basis of a BCF main_part." >*/
+/*< + program instanceregional app_title="program" app_caption="climate-monitor" comment="This is an instance which forms the basis of a BCF main_part." >*/
     /*< + operator_component instanceregional led_name="led" led_pulse="2500" />*/
     /*< + my_app instanceregional btn_name="button" />*/
-/*</ main_part>*/
+/*</ program>*/
 
 
 
-/*< main_part comment="This line triggers code generation from the above main_part instance." />*/
+/*< program comment="This line triggers code generation from the above main_part instance." />*/
 
